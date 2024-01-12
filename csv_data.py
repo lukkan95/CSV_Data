@@ -16,3 +16,5 @@ class StateData(object):
             data = csv.reader(file)
             for row in data:
                 self.list_of_states.append(row)
+
+
